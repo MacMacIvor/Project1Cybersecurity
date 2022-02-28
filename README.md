@@ -54,7 +54,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Elk-Server machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 208.96.*.*
+- 207.96.*.*
 
 Machines within the network can only be accessed by Docker machines from the JumpBox.
 - 10.1.0.4
@@ -63,10 +63,10 @@ A summary of the access policies in place can be found in the table below.
 
 | Name       | Publicly Accessible | Allowed IP Addresses |
 |------------|---------------------|----------------------|
-| Jump Box   | Yes                 | 208.96.*.*           |
+| Jump Box   | Yes                 | 207.96.*.*           |
 | Web1       | No                  | 10.1.0.4             |
 | Web2       | No                  | 10.1.0.4             |
-| Elk-Server | Yes                 | 10.1.0.4 208.96.*.*  |
+| Elk-Server | Yes                 | 10.1.0.4 207.96.*.*  |
 
 ### Elk Configuration
 

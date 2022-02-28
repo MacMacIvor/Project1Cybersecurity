@@ -30,7 +30,7 @@
 10.0.0.4 ansible_python_interpreter=/usr/bin/python3
 
 # If you have multiple hosts following a pattern you can specify
-# them like this:
+# them like this: 
 
 #www[001:006].example.com
 

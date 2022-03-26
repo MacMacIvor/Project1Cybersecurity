@@ -41,7 +41,6 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 - Metric records the metrics of it's operating system saves them to Elasticsearch, Logstash or a specified location.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function        | IP Address | Operating System |
 |----------|-----------------|------------|------------------|
@@ -70,8 +69,7 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- It reduces the chances of future human errors and saves time.
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it reduces the chances of future human errors and saves time.
 
 The playbook implements the following tasks:
 - Install docker on the elk hosts group
